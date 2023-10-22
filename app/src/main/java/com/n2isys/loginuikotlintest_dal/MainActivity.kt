@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
             val ls_id = viewBind.TxtId.text
             val ls_pwd = viewBind.TxtPwd.text
 
-            if(ls_id == "admin@test.com" && ls_pwd = "qwer"){
-                Toast.makeText("로그인성공", "", Toast.LENGTH_SHORT).show()
+            if(ls_id == "admin@test.com" && ls_pwd == "qwer"){
+//                Toast.makeText("로그인성공", "", Toast.LENGTH_SHORT).show()
             }else{
-                Toast.makeText("로그인실패", "", Toast.LENGTH_SHORT).show()
+//                Toast.makeText("로그인실패", "", Toast.LENGTH_SHORT).show()
 
             }
 
