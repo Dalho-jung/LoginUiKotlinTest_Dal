@@ -15,16 +15,14 @@ class MainActivity : AppCompatActivity() {
         viewBind.BtnLogin.setOnClickListener {
 
             val ls_id = viewBind.TxtId.text.toString()
-            val ls_pwd = viewBind.TxtPwd.text.toString()
+            val ls_password = viewBind.TxtPwd.text.toString()
             val ls_name = "달정".toString()
 
-            if(ls_id == "admin@test.com" && ls_pwd == "qwer"){
+            if(ls_id == "admin@test.com" && ls_password == "qwer"){
                 Toast.makeText(this, "${ls_name} 관리자입니다.", Toast.LENGTH_SHORT).show()
             }else{
                 Toast.makeText(this, "로그인실패입니다.", Toast.LENGTH_SHORT).show()
             }
-
-
         }
     }
 }
